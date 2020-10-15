@@ -186,9 +186,9 @@ function LandingPage() {
             <form
               id="contact-form"
               className="col-sm-6 col-md-offset-1 scrollimation fade-left d3"
-              action="contact.php"
-              method="post"
-              noValidate
+              className="myForm"
+              action="https://formspree.io/xnqggpkk"
+              method="POST"
             >
               <div className="form-group">
                 <label className="control-label" htmlFor="contact-name">
